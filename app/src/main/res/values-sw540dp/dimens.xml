@@ -1,0 +1,24 @@
+<resources>
+
+<dimen name="marginLarge">18.0dp</dimen>
+<dimen name="smallMargin">5.625dp</dimen>
+<dimen name="mediumMargin">11.25dp</dimen>
+<dimen name="supperMediumMargin">22.5dp</dimen>
+<dimen name="bigMargin">28.125dp</dimen>
+<dimen name="supperLargeMargin">33.75dp</dimen>
+
+<dimen name="mainMargin">56.25dp</dimen>
+
+<dimen name="smallRadius">5.625dp</dimen>
+<dimen name="mediumRadius">11.25dp</dimen>
+<dimen name="largeRadius">16.875dp</dimen>
+<dimen name="smallElevation">2.25dp</dimen>
+<dimen name="largeElevation">5.625dp</dimen>
+
+<dimen name="smallText">16.875sp</dimen>
+<dimen name="mediumText">22.5sp</dimen>
+<dimen name="quiteText">28.125sp</dimen>
+<dimen name="largeText">33.75sp</dimen>
+<dimen name="superLargeText">39.375sp</dimen>
+
+</resources>

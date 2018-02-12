@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootSoc"
+    tools:context="io.qthjen_dev.deviceinfo.Fragment.CpuInfoFragment">
+
+    <TextView
+        android:textSize="@dimen/mediumText"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:paddingLeft="@dimen/mediumMargin"
+        android:textColor="@color/textWhite"
+        android:layout_below="@+id/recyclerCpu"
+        android:id="@+id/tv_cpuUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_alignParentTop="true"
+        android:id="@+id/recyclerCpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:textSize="@dimen/mediumText"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:paddingLeft="@dimen/mediumMargin"
+        android:textColor="@color/textWhite"
+        android:layout_below="@+id/tv_cpuUsage"
+        android:id="@+id/tv_opengl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="@dimen/mediumText"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:paddingLeft="@dimen/mediumMargin"
+        android:textColor="@color/textWhite"
+        android:layout_below="@+id/tv_opengl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_renderer"/>
+
+    <TextView
+        android:textSize="@dimen/mediumText"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:paddingLeft="@dimen/mediumMargin"
+        android:textColor="@color/textWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/version"
+        android:layout_below="@+id/tv_renderer"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.qthjen_dev.deviceinfo.Fragment.SystemInfoFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_marginTop="@dimen/smallMargin"
+        android:paddingLeft="@dimen/mediumMargin"
+        android:textSize="@dimen/mediumText"
+        android:textColor="@color/textWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_uptime"
+        android:layout_below="@+id/recyclerSystem"/>
+
+</RelativeLayout>

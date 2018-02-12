@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.qthjen_dev.deviceinfo.Fragment.MemoryInfoFragment">
+
+    <TextView
+        android:paddingLeft="@dimen/mediumMargin"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:textSize="@dimen/mediumText"
+        android:textColor="@color/textWhite"
+        android:id="@+id/memtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingLeft="@dimen/mediumMargin"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:textSize="@dimen/mediumText"
+        android:textColor="@color/textWhite"
+        android:layout_below="@+id/memtotal"
+        android:id="@+id/memavail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_below="@+id/memavail"
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:textColor="@color/textWhite"
+            android:checked="true"
+            android:id="@+id/radio_process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showprocess"/>
+
+        <RadioButton
+            android:textColor="@color/textWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_service"
+            android:text="@string/showservice"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:textColor="@color/textWhite"
+        android:layout_below="@+id/radio_group"
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerAllProcess"
+        android:layout_below="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

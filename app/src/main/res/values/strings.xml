@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Device Info</string>
+    <string name="showprocess">Show all process</string>
+    <string name="showservice">Show all service</string>
+    <string name="kill">Kill</string>
+    <string name="listprocess">List processes</string>
+    <string name="listservice">List services</string>
+
+    <!-- title -->
+    <string name="system">System</string>
+    <string name="cpu">Soc</string>
+    <string name="device">Device</string>
+    <string name="memory">Memory</string>
+    <string name="bettery">Bettery</string>
+    <string name="sensor">Sensor</string>
+    <string name="about">About</string>
+
+    <!-- System -->
+    <string name="androidversion">Android Version</string>
+    <string name="apiLevel">API Level</string>
+    <string name="bootloader">Bootloader</string>
+    <string name="buildid">Build ID</string>
+    <string name="javavm">Java VM</string>
+    <string name="opengl">OpenGL ES</string>
+    <string name="kernelAr">Kernel Architecture</string>
+    <string name="kernelVer">Kernel Version</string>
+    <string name="rootAccess">Root Access</string>
+    <string name="systemuptime">System Uptime</string>
+
+    <!-- device -->
+    <string name="model">Model</string>
+    <string name="manufacture">Manufacture</string>
+    <string name="brand">Brand</string>
+    <string name="board">Board</string>
+    <string name="hardware">Hardware</string>
+    <string name="screensize">Screen Size</string>
+    <string name="screenre">Screen Resolution</string>
+    <string name="screenden">Screen Density</string>
+    <string name="totalram">Total RAM</string>
+    <string name="availableram">Available RAM</string>
+    <string name="internalsto">Internal Storage</string>
+    <string name="availablesto">Available Storage</string>
+
+    <!-- soc -->
+    <string name="cpuname">CPU</string>
+    <string name="cpucore">Cores</string>
+    <string name="vendorid">Vendor Id</string>
+    <string name="cachesize">Cache Size</string>
+    <string name="cpumhz">Max Clock Speed</string>
+    <string name="cpumodel">Cpu Model</string>
+    <string name="cpuload">Available CPU</string>
+    <string name="renderer">GPU Renderer</string>
+    <string name="versiongl">GPU Version</string>
+    <string name="gpu">GPU</string>
+    <string name="internalStorage">Total Internal Storage</string>
+    <string name="availStorage">Available Internal Storage</string>
+
+    <!-- battery -->
+    <string name="level">Level</string>
+    <string name="voltage">Voltage</string>
+    <string name="temperature">Temperature</string>
+
+    <!-- sensor -->
+    <string name="sensorname">Sensor Name</string>
+
+    <!-- about -->
+    <string name="line1">System Info</string>
+    <string name="line2">for android (free software)</string>
+    <string name="line3">Version: 1.0.0 Beta 1</string>
+    <string name="line4">Developer: qThjen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
